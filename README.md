@@ -1,5 +1,35 @@
 # Guia de Acessibilidade Digital
 
+# Orientações de Acessibilidade
+
+## Deficiência Visual
+
+O site, de modo geral, não possui uma acessibilidade aceitável para deficientes visuais. Ele conta com um modo de contraste para daltônicos e pessoas com dificuldades em perceber contraste de cores. No entanto, o botão para ativar esse modo está em uma posição pouco intuitiva, e o texto do botão possui um contraste ruim com a página. O site permite a alteração do tamanho da fonte, o que ajuda pessoas com problemas de visão como miopia, astigmatismo e hipertrofia. Porém, não há descrições de imagens, o que dificulta a navegação para deficientes visuais. Pessoas cegas enfrentariam ainda mais dificuldades, pois o site não oferece leitura automática de textos nem navegação por comandos de voz.
+
+As imagens apresentadas no site não possuem legendas descritivas, essenciais para deficientes visuais.
+
+
+## Deficiência Física
+
+O site apresenta barreiras significativas para pessoas com deficiência física. A navegação exige o uso de botões pequenos, o que pode ser estressante e desafiador para pessoas com tremores, movimentos involuntários ou dores que limitam movimentos. Em casos mais graves, a ausência de uma ferramenta de acesso que não exija clicar em botões torna o site inavegável para pessoas com paralisia, dores severas ou ausência de membros.
+
+## Deficiência Auditiva
+
+O site não utiliza meios auditivos para realizar ações, garantindo que nenhum deficiente auditivo seja prejudicado ao utilizá-lo.
+
+## Deficiência de Fala
+
+O site não requer o uso da fala para nenhuma ação, garantindo que nenhum usuário com deficiência de fala seja prejudicado ao utilizá-lo.
+
+## Neurodivergentes
+
+O site não possui cores agressivas que poderiam assustar ou afastar pessoas neurodivergentes, apresentando um ambiente acolhedor para a maioria das neurodivergências visuais. Além disso, o site não utiliza recursos auditivos ou de fala, evitando problemas relacionados. A interface é fácil de entender, com gráficos coloridos e interativos e vídeos explicativos. O único ponto negativo são as tabelas detalhadas, que podem ser pouco atrativas para pessoas neurodivergentes.
+
+## Limitações Relacionadas à Idade
+
+Pessoas idosas podem usar o site com relativa facilidade, embora possam enfrentar dificuldades em clicar nos botões caso sofram de deterioração física. Outro problema potencial é a cegueira causada por problemas de saúde, o que tornaria a utilização do site praticamente impossível para esses usuários.
+
+
 # Padrões de codificação
 
 ## Utilizar arquivos externos para as Folhas de estilo (CSS) e Javascript
