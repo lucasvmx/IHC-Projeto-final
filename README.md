@@ -9,6 +9,7 @@
   * [Limitações Relacionadas à Idade](#Limitações-Relacionadas-à-Idade)
   * [Neurodivergentes](#Neurodivergentes)
 - [Padrões de codificação](#Padrões-de-codificação)
+  * [Utilizar arquivos externos para as Folhas de estilo (CSS) e Javascript](#Utilizar-arquivos-externos-para-as-Folhas-de-estilo-(CSS)-e-Javascript)
   
 # Orientações de Acessibilidade
 
