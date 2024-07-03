@@ -86,7 +86,8 @@ Certo: http://www.portal.gov.br/contato
 Errado: http://www.portal.gov.br/default.php?reg=2&p_secao=18
 ```
 
-## Declarar o doctype correto da página
+## Header
+### Declarar o doctype correto da página
 
 Todo documento HTML e XHTML deve declarar o doctype correto para ser considerado válido. O doctype informa ao navegador o tipo de documento que deve ser usado ao carregar a página. É também por meio da declaração de doctype que as ferramentas de validação analisam o código da página e indicam correções.
 
@@ -95,3 +96,75 @@ Existem três tipos:
 - Frameset
 - Strict
 - Transational
+
+### Declarar o idioma utilizado
+
+Exemplo:
+
+```html
+<html lang="pt-br">
+```
+
+Além de declarar o idioma é possível declarar o país-alvo e a localização da página:
+
+
+```html
+<meta name="country" content="Brazil" />
+```
+
+###  Colocar um título relevante e presente em todas as páginas
+
+O título de uma página é o enunciado entre as tags "title" "/title" e deve ser um dos elementos obrigatórios do cabeçalho. É importante que o título esteja de acordo com o conteúdo. O título define o rótulo padrão dos favoritos e é a chamada na listagem dos motores de busca. Recomenda-se:
+
+- Evitar expressões redundantes como "bem-vindo ao sítio do ministério x" ou "sítio do ministério x", "página", "homepage", entre outros;
+- Não utilize qualquer tipo de slogan no início do título, caso necessário, utilize após o nome do órgão ou projeto separado por hífen. Ex: <title>Projeto XYZ - Mais desenvolvimento e cidadania </title>;
+- Evite o emprego de siglas de instituições ou de seus departamentos, projetos ou programas.
+- Utilizar, de preferência, o assunto da página seguido pelo nome do órgão separado por hífen. Ex: <title>Contato - Ministério do Planejamento Orçamento e Gestão </title>;
+- O título deve ter no máximo 60 caracteres;
+- Não "polua" o título com palavras-chaves. A inserção de palavras-chaves antes ou após o título principal da página pode confundir os usuários que utilizam leitores de tela. Utilize as tags meta para palavras-chave.
+
+## Descrever a codificação de caracteres da página
+
+Exemplo:
+```http
+Content-Type: text/html; charset=utf-8
+```
+
+## Body (Corpo)
+
+### Utilize os elementos corretos para a marcação do código.
+
+Errado:
+```html
+<div id="main">
+    <p class="titulosec">O subtítulo</p>
+</div>
+```
+
+Correto:
+```html
+<div id="main">
+    <h2>O subtítulo</h2>
+</div>
+```
+
+### Inserir apenas um elemento h1 na página
+Toda página deve possuir um e apenas um elemento H1. O conteúdo do cabeçalho deve guardar semelhança com o conteúdo do elemento TITLE do cabeçalho.
+
+### Marcar listas de itens e objetos de forma adequada.
+Escolher o tipo de lista de acordo com o tipo de item que se deseja inserir. Qual dos tipos abaixos o dado melhor se encaixa?
+
+- Lista ordenada
+- Lista não-ordenada
+- Lista de definição
+
+### Verificar se as tabelas estão sendo utilizadas da forma correta
+Para tornar os dados das tabelas acessíveis é importante utilizar os diversos componentes disponíveis como o cabeçalho <th> e o atributo de sumário.
+
+## CSS (Folhas de Estilo)
+
+### A folha de estilos deve ser externa
+A folha de estilos (CSS) deve estar sempre em um ou mais arquivos à parte do código, mantendo a separação entre estrutura e apresentação.
+
+### Verificar se a página é compreendida e usável quando o CSS está 'off'
+Alguns recursos como o uso de imagens no lugar de texto, ou de menus dinâmicos, podem incorrer na perda de acessibilidade e compreensão quando o CSS é desabilitado. Assegure-se que a página é compreensível e usável com o CSS desabilitado.
