@@ -1,15 +1,25 @@
 # Guia de Acessibilidade Digital
 
+Este é um guia de acessibilidade digital desenvolvido no primeiro semestre de 2024 como parte de um trabalho da disciplina de IHC.
+Todo o conteúdo disponível aqui possui instruções de como desenvolver produtos de software que possam ser acessíveis para o público geral.
+
 # Sumário
-- [Orientações de Acessibilidade](#Orientações-de-Acessibilidade)
-  * [Deficiência Visual](#Deficiência-Visual)
-  * [Deficiência Física](#Deficiência-Física)
-  * [Deficiência Auditiva](#Deficiência-Auditiva)
-  * [Deficiência de Fala](#Deficiência-de-Fala)
-  * [Limitações Relacionadas à Idade](#Limitações-Relacionadas-à-Idade)
-  * [Neurodivergentes](#Neurodivergentes)
-- [Padrões de codificação](#Padrões-de-codificação)
-  * [Utilizar arquivos externos para as Folhas de estilo (CSS) e Javascript](#Utilizar-arquivos-externos-para-as-Folhas-de-estilo-(CSS)-e-Javascript)
+- [Guia de Acessibilidade Digital](#guia-de-acessibilidade-digital)
+- [Sumário](#sumário)
+- [Orientações de Acessibilidade](#orientações-de-acessibilidade)
+   * [Deficiência Visual](#deficiência-visual)
+   * [Deficiência Física](#deficiência-física)
+   * [Deficiência Auditiva](#deficiência-auditiva)
+   * [Deficiência de Fala](#deficiência-de-fala)
+   * [Neurodivergentes](#neurodivergentes)
+   * [Limitações Relacionadas à Idade](#limitações-relacionadas-à-idade)
+- [Padrões de codificação](#padrões-de-codificação)
+   * [Utilizar arquivos externos para as Folhas de estilo (CSS) e Javascript](#utilizar-arquivos-externos-para-as-folhas-de-estilo-css-e-javascript)
+   * [Limitar as requisições HTTP](#limitar-as-requisições-http)
+   * [Evitar o uso de popups](#evitar-o-uso-de-popups)
+   * [Utilizar URL's amigáveis](#utilizar-urls-amigáveis)
+   * [Declarar o doctype correto da página](#declarar-o-doctype-correto-da-página)
+
   
 # Orientações de Acessibilidade
 
