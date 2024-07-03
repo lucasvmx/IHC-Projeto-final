@@ -1,5 +1,15 @@
 # Guia de Acessibilidade Digital
 
+# Sumário
+- [Orientações de Acessibilidade](#Orientações-de-Acessibilidade)
+  * [Deficiência Visual](#Deficiência-Visual)
+  * [Deficiência Física](#Deficiência-Física)
+  * [Deficiência Auditiva](#Deficiência-Auditiva)
+  * [Deficiência de Fala](#Deficiência-de-Fala)
+  * [Limitações Relacionadas à Idade](#Limitações-Relacionadas-à-Idade)
+  * [Neurodivergentes](#Neurodivergentes)
+- [Padrões de codificação](#Padrões-de-codificação)
+  
 # Orientações de Acessibilidade
 
 ## Deficiência Visual
