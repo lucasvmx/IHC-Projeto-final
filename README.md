@@ -5,7 +5,6 @@ Todo o conteúdo disponível aqui possui instruções de como desenvolver produt
 
 # Sumário
 - [Guia de Acessibilidade Digital](#guia-de-acessibilidade-digital)
-- [Sumário](#sumário)
 - [Orientações de Acessibilidade](#orientações-de-acessibilidade)
    * [Deficiência Visual](#deficiência-visual)
    * [Deficiência Física](#deficiência-física)
@@ -18,9 +17,20 @@ Todo o conteúdo disponível aqui possui instruções de como desenvolver produt
    * [Limitar as requisições HTTP](#limitar-as-requisições-http)
    * [Evitar o uso de popups](#evitar-o-uso-de-popups)
    * [Utilizar URL's amigáveis](#utilizar-urls-amigáveis)
-   * [Declarar o doctype correto da página](#declarar-o-doctype-correto-da-página)
+   * [Header](#header)
+      + [Declarar o doctype correto da página](#declarar-o-doctype-correto-da-página)
+      + [Declarar o idioma utilizado](#declarar-o-idioma-utilizado)
+      + [Colocar um título relevante e presente em todas as páginas](#colocar-um-título-relevante-e-presente-em-todas-as-páginas)
+   * [Descrever a codificação de caracteres da página](#descrever-a-codificação-de-caracteres-da-página)
+   * [Body (Corpo)](#body-corpo)
+      + [Utilize os elementos corretos para a marcação do código.](#utilize-os-elementos-corretos-para-a-marcação-do-código)
+      + [Inserir apenas um elemento h1 na página](#inserir-apenas-um-elemento-h1-na-página)
+      + [Marcar listas de itens e objetos de forma adequada.](#marcar-listas-de-itens-e-objetos-de-forma-adequada)
+      + [Verificar se as tabelas estão sendo utilizadas da forma correta](#verificar-se-as-tabelas-estão-sendo-utilizadas-da-forma-correta)
+   * [CSS (Folhas de Estilo)](#css-folhas-de-estilo)
+      + [A folha de estilos deve ser externa](#a-folha-de-estilos-deve-ser-externa)
+      + [Verificar se a página é compreendida e usável quando o CSS está 'off'](#verificar-se-a-página-é-compreendida-e-usável-quando-o-css-está-off)
 
-  
 # Orientações de Acessibilidade
 
 ## Deficiência Visual
