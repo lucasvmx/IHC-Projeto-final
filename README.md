@@ -42,34 +42,63 @@ De modo geral, o site não apresenta uma acessibilidade adequada para deficiente
 
 O site permite a alteração do tamanho da fonte, o que beneficia pessoas com problemas de visão como miopia, astigmatismo e hipertrofia ([Figura 2](#figura-2))). Entretanto, não há descrições de imagens disponíveis, o que dificulta significativamente a navegação para deficientes visuais ([Figura 3](#figura-3)). Adicionalmente, pessoas cegas enfrentariam ainda mais dificuldades, uma vez que o site não oferece recursos de leitura automática de textos nem navegação por comandos de voz.
 
-**Figura 1**
+<!-- **Figura 1** -->
 
 <a name="figura-1"></a>
 
+<div style="text-align: center;">
+
 ![imagem demonstrando a falta de contraste do site](./assets/falta_de_conraste.png)
 
+<p align="center">
+  <strong>Figura 1:</strong> Falta de contraste do site
+</p>
+</div>
 
-**Figura 2**
+<!-- **Figura 2** -->
 
 <a name="figura-2"></a>
+
+<div style="text-align: center;">
+
 
 ![imagem demonstrando o modo de alto contraste do site](./assets/modo_de_alto_contraste.png)
 
 
-**Figura 3**
+<p align="center">
+  <strong>Figura 2:</strong> O modo de alto contraste do site
+</p>
+</div>
+
+<!-- **Figura 3** -->
 
 <a name="figura-3"></a>
 
+<div style="text-align: center;">
+
+
 ![imagem demonstrando o porbelma de contraste na página](./assets/botoes_de_acessibilidade.png)
 
+<p align="center">
+  <strong>Figura 3:</strong> O porbelma de contraste na página
+</p>
+</div>
 
-**Figura 4**
+<!-- **Figura 4** -->
 
 <a name="figura-4"></a>
 
 
+<div style="text-align: center;">
+
+
 ![imagem demonstrando a falta de descrição na imagem do site](./assets/imagen_sem_descrição.png)
 
+
+<p align="center">
+  <strong>Figura 4:</strong> A falta de descrição na imagem do site
+</p>
+</div>
 
 ## Deficiência Física
 
