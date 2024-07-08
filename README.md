@@ -44,27 +44,25 @@ O site permite a alteração do tamanho da fonte, o que beneficia pessoas com pr
 
 **Figura 1**
 
-<center>
+
 ![imagem demonstrando a falta de contraste do site](./assets/falta_de_conraste.png)
-</center>
+
 
 **Figura 2**
 
-<center>
+
 ![imagem demonstrando o modo de alto contraste do site](./assets/modo_de_alto_contraste.png)
-</center>
+
 
 **Figura 3**
 
-<center>
 ![imagem demonstrando o porbelma de contraste na página](./assets/botoes_de_acessibilidade.png)
-</center>
+
 
 **Figura 4**
 
-<center>
 ![imagem demonstrando a falta de descrição na imagem do site](./assets/imagen_sem_descrição.png)
-</center>
+
 
 ## Deficiência Física
 
@@ -72,9 +70,9 @@ O site apresenta barreiras significativas para pessoas com deficiência física.
 
 **Figura 5**
 
-<center>
+
 ![Imagem dos links pequenos com navegação difícil para deficiêntes físicos](./assets/links_pequenos.png)
-</center>
+
 
 ## Deficiência Auditiva
 
@@ -90,15 +88,15 @@ O site não possui cores agressivas que poderiam assustar ou afastar pessoas neu
 
 **Figura 6**
 
-<center>
+
 ![Imagem demonstrando uma tabela pouco atrativa para neurodivergentes](./assets/tabela_pouco_atrativa.png)
-</center>
+
 
 **Figura 7**
 
-<center>
+
 ![Imagem demonstrando uma tabelaatrativa para neurodivergentes](./assets/tabela_altamente_atrativo.png)
-</center>
+
 
 ## Limitações Relacionadas à Idade
 
