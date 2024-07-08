@@ -43,23 +43,38 @@ De modo geral, o site não apresenta uma acessibilidade adequada para deficiente
 O site permite a alteração do tamanho da fonte, o que beneficia pessoas com problemas de visão como miopia, astigmatismo e hipertrofia (Figura 2). Entretanto, não há descrições de imagens disponíveis, o que dificulta significativamente a navegação para deficientes visuais (Figura 3). Adicionalmente, pessoas cegas enfrentariam ainda mais dificuldades, uma vez que o site não oferece recursos de leitura automática de textos nem navegação por comandos de voz.
 
 **Figura 1**
+
+<center>
 ![imagem demonstrando a falta de contraste do site](./assets/falta_de_conraste.png)
+</center>
 
 **Figura 2**
+
+<center>
 ![imagem demonstrando o modo de alto contraste do site](./assets/modo_de_alto_contraste.png)
+</center>
 
 **Figura 3**
+
+<center>
 ![imagem demonstrando o porbelma de contraste na página](./assets/botoes_de_acessibilidade.png)
+</center>
 
 **Figura 4**
+
+<center>
 ![imagem demonstrando a falta de descrição na imagem do site](./assets/imagen_sem_descrição.png)
+</center>
 
 ## Deficiência Física
 
 O site apresenta barreiras significativas para pessoas com deficiência física. A navegação exige o uso de links pequenos (Figura 5), o que pode ser estressante e desafiador para indivíduos com tremores, movimentos involuntários ou dores que limitam os movimentos. Em casos mais graves, a ausência de uma ferramenta de acesso que não exija a interação com botões torna o site inavegável para pessoas com paralisia, dores severas ou ausência de membros.
 
 **Figura 5**
+
+<center>
 ![Imagem dos links pequenos com navegação difícil para deficiêntes físicos](./assets/links_pequenos.png)
+</center>
 
 ## Deficiência Auditiva
 
@@ -74,10 +89,16 @@ O site não requer o uso da fala para nenhuma ação, garantindo que nenhum usu�
 O site não possui cores agressivas que poderiam assustar ou afastar pessoas neurodivergentes, apresentando um ambiente acolhedor para a maioria das neurodivergências visuais. Além disso, o site não utiliza recursos auditivos ou de fala, evitando problemas relacionados. A interface é fácil de entender, com gráficos coloridos (Figura 6) e interativos e vídeos explicativos. O único ponto negativo são as tabelas detalhadas, que podem ser pouco atrativas para pessoas neurodivergentes(Figura 7).
 
 **Figura 6**
+
+<center>
 ![Imagem demonstrando uma tabela pouco atrativa para neurodivergentes](./assets/tabela_pouco_atrativa.png)
+</center>
 
 **Figura 7**
+
+<center>
 ![Imagem demonstrando uma tabelaatrativa para neurodivergentes](./assets/tabela_altamente_atrativo.png)
+</center>
 
 ## Limitações Relacionadas à Idade
 
