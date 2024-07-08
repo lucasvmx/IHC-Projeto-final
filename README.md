@@ -2,6 +2,7 @@
 
 Este é um guia de acessibilidade digital desenvolvido no primeiro semestre de 2024 como parte de um trabalho da disciplina de IHC.
 Todo o conteúdo disponível aqui possui instruções de como desenvolver produtos de software que possam ser acessíveis para o público geral.
+Dentro desse Guia será analisado os contúdos do site [Portal da Transparência](https://portaldatransparencia.gov.br/).
 
 # Sumário
 - [Guia de Acessibilidade Digital](#guia-de-acessibilidade-digital)
