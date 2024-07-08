@@ -280,3 +280,15 @@ A folha de estilos (CSS) deve estar sempre em um ou mais arquivos à parte do c�
 ### Verificar se a página é compreendida e usável quando o CSS está 'off'
 
 Alguns recursos como o uso de imagens no lugar de texto, ou de menus dinâmicos, podem incorrer na perda de acessibilidade e compreensão quando o CSS é desabilitado. Assegure-se que a página é compreensível e usável com o CSS desabilitado.
+
+# Testes de Acessibilidade
+
+## Programa leitores de tela e Navegadores de texto
+Utilizar programas leitores de tela em conjunto com navegadores de texto para testar a página
+
+## Análise de contraste
+Verificar se o jogo de cores da página proporciona contraste suficiente para leitura do conteúdo
+
+## Visualização em letras grandes
+Verificar o funcionamento da página no caso de alteração do tamanho das letras. Para verificar problemas nesses casos pode-se utilizar o menu de exibição do tamanho de texto no navegador que está sendo utilizado
+
