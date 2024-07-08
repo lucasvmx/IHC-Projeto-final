@@ -9,12 +9,16 @@ Dentro desse Guia será analisado os contúdos do site [Portal da Transparência
 - [Guia de Acessibilidade Digital](#guia-de-acessibilidade-digital)
 - [Sumário](#sumário)
 - [Orientações de Acessibilidade](#orientações-de-acessibilidade)
-   * [Deficiência Visual](#deficiência-visual)
-   * [Deficiência Física](#deficiência-física)
-   * [Deficiência Auditiva](#deficiência-auditiva)
-   * [Deficiência de Fala](#deficiência-de-fala)
-   * [Neurodivergentes](#neurodivergentes)
-   * [Limitações Relacionadas à Idade](#limitações-relacionadas-à-idade)
+  - [Guia](#guia)
+    - [Deficiência Visual](#deficiência-visual)
+    - [Deficiência física](#deficiência-física)
+  * [Análise](#analise)
+    + [Deficiência Visual](#deficiência-visual)
+    + [Deficiência Física](#deficiência-física)
+    + [Deficiência Auditiva](#deficiência-auditiva)
+    + [Deficiência de Fala](#deficiência-de-fala)
+    + [Neurodivergentes](#neurodivergentes)
+    + [Limitações Relacionadas à Idade](#limitações-relacionadas-à-idade)
 - [Padrões de codificação](#padrões-de-codificação)
    * [Utilizar arquivos externos para as Folhas de estilo (CSS) e Javascript](#utilizar-arquivos-externos-para-as-folhas-de-estilo-css-e-javascript)
    * [Limitar as requisições HTTP](#limitar-as-requisições-http)
@@ -36,7 +40,19 @@ Dentro desse Guia será analisado os contúdos do site [Portal da Transparência
 
 # Orientações de Acessibilidade
 
-## Deficiência Visual
+## Guia
+
+### Deficiência Visual
+
+Um site pensado para deficiêntes visuais deveria seguir alguns pensamentos básicos visando entender as dificuldades que um usuário com esses problemas poderiam enfrentar sendo eles o cuidado com o contraste que pode ser extremamente valioso para qualquer pessoa com uma deficiência que dificulte a visualização de diferênciação de cores como daltonismo por exemplo.
+
+Outro problema a ser observado é o de pessoas com dificuldade de ver pequenos objetos e letras, por exemplo miopia, para essas pessoas é praticamente inldispensável uma ferramenta que altere o tamanho da fonte para uma melhor visualização dos textos em uma página. Outro aspecto para esse grupo de pessoas é a legenda e a descrição alternativa para as imagens no caso da pessoa não conseguir distinguir exatamente o que está sendo apresentado na imagem.
+
+### Deficiência física
+
+## Análise
+
+### Deficiência Visual
 
 De modo geral, o site não apresenta uma acessibilidade adequada para deficientes visuais. Observa-se um contraste insuficiente entre o texto e o plano de fundo ([Figura 1](#figura-1)), o que compromete a legibilidade. Embora o site possua um modo de contraste ([Figura 2](#figura-2)), o botão para ativar essa funcionalidade está mal posicionado e, devido à sua falta de contraste, é difícil de ser percebido por daltônicos e por indivíduos com dificuldades em detectar contraste de cores. Além disso, o botão para ativar o modo de contraste está localizado de forma pouco intuitiva, e o texto do botão apresenta um contraste inadequado com a página ([Figura 2](#figura-2)).
 
@@ -92,7 +108,7 @@ O site permite a alteração do tamanho da fonte, o que beneficia pessoas com pr
 </p>
 </div>
 
-## Deficiência Física
+### Deficiência Física
 
 O site apresenta barreiras significativas para pessoas com deficiência física. A navegação exige o uso de links pequenos ([Figura 5](#figura-5)), o que pode ser estressante e desafiador para indivíduos com tremores, movimentos involuntários ou dores que limitam os movimentos. Em casos mais graves, a ausência de uma ferramenta de acesso que não exija a interação com botões torna o site inavegável para pessoas com paralisia, dores severas ou ausência de membros.
 
@@ -110,15 +126,15 @@ O site apresenta barreiras significativas para pessoas com deficiência física.
 </div>
 
 
-## Deficiência Auditiva
+### Deficiência Auditiva
 
 O site não utiliza meios auditivos para realizar ações, garantindo que nenhum deficiente auditivo seja prejudicado ao utilizá-lo.
 
-## Deficiência de Fala
+### Deficiência de Fala
 
 O site não requer o uso da fala para nenhuma ação, garantindo que nenhum usuário com deficiência de fala seja prejudicado ao utilizá-lo.
 
-## Neurodivergentes
+### Neurodivergentes
 
 O site não possui cores agressivas que poderiam assustar ou afastar pessoas neurodivergentes, apresentando um ambiente acolhedor para a maioria das neurodivergências visuais. Além disso, o site não utiliza recursos auditivos ou de fala, evitando problemas relacionados. A interface é fácil de entender, com gráficos coloridos ([Figura 6](#figura-6)) e interativos e vídeos explicativos. O único ponto negativo são as tabelas detalhadas, que podem ser pouco atrativas para pessoas neurodivergentes([Figura 7](#figura-7)).
 
@@ -151,7 +167,7 @@ O site não possui cores agressivas que poderiam assustar ou afastar pessoas neu
 </p>
 </div>
 
-## Limitações Relacionadas à Idade
+### Limitações Relacionadas à Idade
 
 Pessoas idosas podem utilizar o site com relativa facilidade, embora possam enfrentar dificuldades em clicar nos botões caso sofram de deterioração física ([Figura 5](#figura-5)). Outro problema potencial é a cegueira causada por problemas de saúde, o que tornaria a utilização do site praticamente impossível para esses usuários.
 
