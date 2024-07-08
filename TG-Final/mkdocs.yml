@@ -1,0 +1,48 @@
+site_name: DataDiggers | Construmix
+
+repo_name: "IHC-Projeto-final"
+repo_url: "https://github.com/lucasvmx/IHC-Projeto-final"
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+  language: pt
+
+  font:
+    text: "Roboto"
+    code: "sans-serif"
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: red
+
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+      primary: red
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Início: index.md
+  - Processos de Desenvolvimento de Software: processosDesinvolvimento.md
+  - Visão do Produto e Projeto: documentoVisao.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
