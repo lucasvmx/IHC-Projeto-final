@@ -40,10 +40,6 @@ Dentro desse Guia será analisado os contúdos do site [Portal da Transparência
 
 De modo geral, o site não apresenta uma acessibilidade adequada para deficientes visuais. Observa-se um contraste insuficiente entre o texto e o plano de fundo ([Figura 1](#figura-1)), o que compromete a legibilidade. Embora o site possua um modo de contraste ([Figura 2](#figura-2)), o botão para ativar essa funcionalidade está mal posicionado e, devido à sua falta de contraste, é difícil de ser percebido por daltônicos e por indivíduos com dificuldades em detectar contraste de cores. Além disso, o botão para ativar o modo de contraste está localizado de forma pouco intuitiva, e o texto do botão apresenta um contraste inadequado com a página ([Figura 2](#figura-2)).
 
-O site permite a alteração do tamanho da fonte, o que beneficia pessoas com problemas de visão como miopia, astigmatismo e hipertrofia ([Figura 2](#figura-2))). Entretanto, não há descrições de imagens disponíveis, o que dificulta significativamente a navegação para deficientes visuais ([Figura 3](#figura-3)). Adicionalmente, pessoas cegas enfrentariam ainda mais dificuldades, uma vez que o site não oferece recursos de leitura automática de textos nem navegação por comandos de voz.
-
-<!-- **Figura 1** -->
-
 <a name="figura-1"></a>
 
 <div style="text-align: center;">
@@ -54,8 +50,6 @@ O site permite a alteração do tamanho da fonte, o que beneficia pessoas com pr
   <strong>Figura 1:</strong> Falta de contraste do site
 </p>
 </div>
-
-<!-- **Figura 2** -->
 
 <a name="figura-2"></a>
 
@@ -70,7 +64,7 @@ O site permite a alteração do tamanho da fonte, o que beneficia pessoas com pr
 </p>
 </div>
 
-<!-- **Figura 3** -->
+O site permite a alteração do tamanho da fonte, o que beneficia pessoas com problemas de visão como miopia, astigmatismo e hipertrofia ([Figura 3](#figura-3))). Entretanto, não há descrições de imagens disponíveis, o que dificulta significativamente a navegação para deficientes visuais ([Figura 4](#figura-4)). Adicionalmente, pessoas cegas enfrentariam ainda mais dificuldades, uma vez que o site não oferece recursos de leitura automática de textos nem navegação por comandos de voz.
 
 <a name="figura-3"></a>
 
@@ -83,8 +77,6 @@ O site permite a alteração do tamanho da fonte, o que beneficia pessoas com pr
   <strong>Figura 3:</strong> O porbelma de contraste na página
 </p>
 </div>
-
-<!-- **Figura 4** -->
 
 <a name="figura-4"></a>
 
@@ -104,11 +96,18 @@ O site permite a alteração do tamanho da fonte, o que beneficia pessoas com pr
 
 O site apresenta barreiras significativas para pessoas com deficiência física. A navegação exige o uso de links pequenos ([Figura 5](#figura-5)), o que pode ser estressante e desafiador para indivíduos com tremores, movimentos involuntários ou dores que limitam os movimentos. Em casos mais graves, a ausência de uma ferramenta de acesso que não exija a interação com botões torna o site inavegável para pessoas com paralisia, dores severas ou ausência de membros.
 
-**Figura 5**
 
 <a name="figura-5"></a>
 
+<div style="text-align: center;">
+
+
 ![Imagem dos links pequenos com navegação difícil para deficiêntes físicos](./assets/links_pequenos.png)
+
+<p align="center">
+  <strong>Figura 5:</strong> Links pequenos com navegação difícil para deficiêntes físicos
+</p>
+</div>
 
 
 ## Deficiência Auditiva
@@ -123,21 +122,34 @@ O site não requer o uso da fala para nenhuma ação, garantindo que nenhum usu�
 
 O site não possui cores agressivas que poderiam assustar ou afastar pessoas neurodivergentes, apresentando um ambiente acolhedor para a maioria das neurodivergências visuais. Além disso, o site não utiliza recursos auditivos ou de fala, evitando problemas relacionados. A interface é fácil de entender, com gráficos coloridos ([Figura 6](#figura-6)) e interativos e vídeos explicativos. O único ponto negativo são as tabelas detalhadas, que podem ser pouco atrativas para pessoas neurodivergentes([Figura 7](#figura-7)).
 
-**Figura 6**
-
 <a name="figura-6"></a>
+
+<div style="text-align: center;">
 
 
 ![Imagem demonstrando uma tabela pouco atrativa para neurodivergentes](./assets/tabela_pouco_atrativa.png)
+
+
+<p align="center">
+  <strong>Figura 6:</strong> tabela pouco atrativa para neurodivergentes
+</p>
+</div>
 
 
 **Figura 7**
 
 <a name="figura-7"></a>
 
+<div style="text-align: center;">
 
-![Imagem demonstrando uma tabelaatrativa para neurodivergentes](./assets/tabela_altamente_atrativo.png)
 
+![Imagem demonstrando uma tabela atrativa para neurodivergentes](./assets/tabela_altamente_atrativo.png)
+
+
+<p align="center">
+  <strong>Figura 7:</strong> Tabela atrativa para neurodivergentes
+</p>
+</div>
 
 ## Limitações Relacionadas à Idade
 
