@@ -37,8 +37,6 @@ Todo o conteúdo disponível aqui possui instruções de como desenvolver produt
 
 O site, de modo geral, não possui uma acessibilidade aceitável para deficientes visuais. Ele conta com um modo de contraste para daltônicos e pessoas com dificuldades em perceber contraste de cores. No entanto, o botão para ativar esse modo está em uma posição pouco intuitiva, e o texto do botão possui um contraste ruim com a página. O site permite a alteração do tamanho da fonte, o que ajuda pessoas com problemas de visão como miopia, astigmatismo e hipertrofia. Porém, não há descrições de imagens, o que dificulta a navegação para deficientes visuais. Pessoas cegas enfrentariam ainda mais dificuldades, pois o site não oferece leitura automática de textos nem navegação por comandos de voz.
 
-As imagens apresentadas no site não possuem legendas descritivas, essenciais para deficientes visuais.
-
 
 ## Deficiência Física
 
