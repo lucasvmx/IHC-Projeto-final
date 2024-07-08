@@ -12,31 +12,36 @@ Dentro desse Guia será analisado os contúdos do site [Portal da Transparência
   - [Guia](#guia)
     - [Deficiência Visual](#deficiência-visual)
     - [Deficiência física](#deficiência-física)
-  * [Análise](#analise)
-    + [Deficiência Visual](#deficiência-visual)
-    + [Deficiência Física](#deficiência-física)
-    + [Deficiência Auditiva](#deficiência-auditiva)
-    + [Deficiência de Fala](#deficiência-de-fala)
-    + [Neurodivergentes](#neurodivergentes)
-    + [Limitações Relacionadas à Idade](#limitações-relacionadas-à-idade)
+    - [Deficiência auditiva](#deficiência-auditiva)
+    - [Neurodivergentes](#neurodivergentes)
+  - [Análise](#análise)
+    - [Deficiência Visual](#deficiência-visual-1)
+    - [Deficiência Física](#deficiência-física-1)
+    - [Deficiência Auditiva](#deficiência-auditiva-1)
+    - [Neurodivergentes](#neurodivergentes-1)
+    - [Limitações Relacionadas à Idade](#limitações-relacionadas-à-idade)
 - [Padrões de codificação](#padrões-de-codificação)
-   * [Utilizar arquivos externos para as Folhas de estilo (CSS) e Javascript](#utilizar-arquivos-externos-para-as-folhas-de-estilo-css-e-javascript)
-   * [Limitar as requisições HTTP](#limitar-as-requisições-http)
-   * [Evitar o uso de popups](#evitar-o-uso-de-popups)
-   * [Utilizar URL's amigáveis](#utilizar-urls-amigáveis)
-   * [Header](#header)
-      + [Declarar o doctype correto da página](#declarar-o-doctype-correto-da-página)
-      + [Declarar o idioma utilizado](#declarar-o-idioma-utilizado)
-      + [Colocar um título relevante e presente em todas as páginas](#colocar-um-título-relevante-e-presente-em-todas-as-páginas)
-   * [Descrever a codificação de caracteres da página](#descrever-a-codificação-de-caracteres-da-página)
-   * [Body (Corpo)](#body-corpo)
-      + [Utilize os elementos corretos para a marcação do código.](#utilize-os-elementos-corretos-para-a-marcação-do-código)
-      + [Inserir apenas um elemento h1 na página](#inserir-apenas-um-elemento-h1-na-página)
-      + [Marcar listas de itens e objetos de forma adequada.](#marcar-listas-de-itens-e-objetos-de-forma-adequada)
-      + [Verificar se as tabelas estão sendo utilizadas da forma correta](#verificar-se-as-tabelas-estão-sendo-utilizadas-da-forma-correta)
-   * [CSS (Folhas de Estilo)](#css-folhas-de-estilo)
-      + [A folha de estilos deve ser externa](#a-folha-de-estilos-deve-ser-externa)
-      + [Verificar se a página é compreendida e usável quando o CSS está 'off'](#verificar-se-a-página-é-compreendida-e-usável-quando-o-css-está-off)
+  - [Utilizar arquivos externos para as Folhas de estilo (CSS) e Javascript](#utilizar-arquivos-externos-para-as-folhas-de-estilo-css-e-javascript)
+  - [Limitar as requisições HTTP](#limitar-as-requisições-http)
+  - [Evitar o uso de popups](#evitar-o-uso-de-popups)
+  - [Utilizar URL's amigáveis](#utilizar-urls-amigáveis)
+  - [Header](#header)
+    - [Declarar o doctype correto da página](#declarar-o-doctype-correto-da-página)
+    - [Declarar o idioma utilizado](#declarar-o-idioma-utilizado)
+    - [Colocar um título relevante e presente em todas as páginas](#colocar-um-título-relevante-e-presente-em-todas-as-páginas)
+  - [Descrever a codificação de caracteres da página](#descrever-a-codificação-de-caracteres-da-página)
+  - [Body (Corpo)](#body-corpo)
+    - [Utilize os elementos corretos para a marcação do código.](#utilize-os-elementos-corretos-para-a-marcação-do-código)
+    - [Inserir apenas um elemento h1 na página](#inserir-apenas-um-elemento-h1-na-página)
+    - [Marcar listas de itens e objetos de forma adequada.](#marcar-listas-de-itens-e-objetos-de-forma-adequada)
+    - [Verificar se as tabelas estão sendo utilizadas da forma correta](#verificar-se-as-tabelas-estão-sendo-utilizadas-da-forma-correta)
+  - [CSS (Folhas de Estilo)](#css-folhas-de-estilo)
+    - [A folha de estilos deve ser externa](#a-folha-de-estilos-deve-ser-externa)
+    - [Verificar se a página é compreendida e usável quando o CSS está 'off'](#verificar-se-a-página-é-compreendida-e-usável-quando-o-css-está-off)
+- [Testes de Acessibilidade](#testes-de-acessibilidade)
+  - [Programa leitores de tela e Navegadores de texto](#programa-leitores-de-tela-e-navegadores-de-texto)
+  - [Análise de contraste](#análise-de-contraste)
+  - [Visualização em letras grandes](#visualização-em-letras-grandes)
 
 # Orientações de Acessibilidade
 
@@ -44,11 +49,41 @@ Dentro desse Guia será analisado os contúdos do site [Portal da Transparência
 
 ### Deficiência Visual
 
-Um site pensado para deficiêntes visuais deveria seguir alguns pensamentos básicos visando entender as dificuldades que um usuário com esses problemas poderiam enfrentar sendo eles o cuidado com o contraste que pode ser extremamente valioso para qualquer pessoa com uma deficiência que dificulte a visualização de diferênciação de cores como daltonismo por exemplo.
+Um site projetado para pessoas com deficiência visual deve seguir princípios básicos para compreender as dificuldades que esses usuários podem enfrentar. É essencial ter cuidado com o contraste, pois é extremamente valioso para qualquer pessoa com dificuldade de diferenciar cores, como no caso do daltonismo.
 
-Outro problema a ser observado é o de pessoas com dificuldade de ver pequenos objetos e letras, por exemplo miopia, para essas pessoas é praticamente inldispensável uma ferramenta que altere o tamanho da fonte para uma melhor visualização dos textos em uma página. Outro aspecto para esse grupo de pessoas é a legenda e a descrição alternativa para as imagens no caso da pessoa não conseguir distinguir exatamente o que está sendo apresentado na imagem.
+Outro problema a ser considerado é a dificuldade de ver pequenos objetos e letras, como no caso da miopia. Para essas pessoas, é praticamente indispensável uma ferramenta que permita alterar o tamanho da fonte, facilitando a leitura dos textos na página. Além disso, é fundamental incluir legendas e descrições alternativas para as imagens, para que pessoas com dificuldades visuais possam entender o conteúdo apresentado.
 
 ### Deficiência física
+
+Um site projetado para pessoas com deficiência física deve levar em consideração várias dificuldades que esses usuários podem enfrentar, como tremores, paralisia e outras limitações de movimento. Para garantir uma experiência acessível e inclusiva, é essencial seguir alguns princípios básicos.
+
+Primeiramente, é importante que o site seja navegável apenas pelo teclado, sem a necessidade de um mouse, pois muitas pessoas com deficiência física podem não conseguir utilizar o mouse devido à falta de controle preciso dos movimentos. Recursos como a navegação por meio de teclas de atalho e a capacidade de tabular entre elementos da página são cruciais para essas pessoas.
+
+Outro aspecto importante é a utilização de botões e links grandes e bem espaçados. Isso facilita a interação para pessoas com controle limitado sobre seus movimentos, reduzindo a possibilidade de erros ao tentar clicar em um pequeno alvo na tela. Adicionalmente, os elementos interativos devem ter descrições claras e intuitivas, permitindo que os usuários compreendam facilmente suas funções.
+
+Por fim, deve-se considerar o uso de tecnologias assistivas, como software de reconhecimento de voz, que permite aos usuários controlarem o site e inserirem informações sem a necessidade de digitação manual. Também é recomendável testar o site com diferentes tipos de dispositivos de entrada, como joysticks especiais e outros equipamentos adaptados, para garantir que todas as funcionalidades estejam acessíveis a pessoas com diversas necessidades físicas.
+
+### Deficiência auditiva
+
+Um site projetado para pessoas com deficiência auditiva deve seguir princípios específicos para atender às necessidades desses usuários, considerando problemas como surdez e baixa audição.
+
+Em primeiro lugar, é essencial garantir que todo o conteúdo multimídia, como vídeos e áudios, tenha legendas de alta qualidade. As legendas devem ser claras, sincronizadas e detalhadas o suficiente para transmitir todas as informações auditivas relevantes, incluindo diálogos, sons de fundo e música. Além disso, a presença de transcrições textuais para conteúdos de áudio proporciona uma alternativa acessível para pessoas que não podem ouvir o áudio.
+
+Notificações e alertas sonoros no site devem ser acompanhados por equivalentes visuais e táteis. Por exemplo, notificações importantes podem ser exibidas como pop-ups visuais ou acompanhadas por vibrações em dispositivos móveis, garantindo que os usuários com deficiência auditiva não percam informações cruciais.
+
+### Neurodivergentes 
+
+Um site projetado para pessoas neurodivergentes deve seguir princípios específicos para atender às necessidades desses usuários, considerando condições como autismo, TDAH, dislexia e outras deficiências intelectuais e psicossociais.
+
+Em primeiro lugar, é essencial que o site tenha uma interface limpa e intuitiva, evitando excesso de informações e elementos distrativos. A simplicidade no design e a organização clara do conteúdo ajudam a reduzir a sobrecarga sensorial e facilitam a navegação para pessoas com dificuldades de atenção e processamento de informações.
+
+O uso de linguagem clara e objetiva é crucial. Textos devem ser escritos de maneira direta, evitando jargões e frases complexas. A utilização de listas, cabeçalhos e parágrafos curtos pode melhorar a legibilidade e a compreensão do conteúdo. Além disso, oferecer alternativas de apresentação, como vídeos explicativos e gráficos, pode ajudar usuários com diferentes estilos de aprendizagem.
+
+Para pessoas com dislexia, é importante fornecer opções de personalização de fonte e espaçamento. Fontes sem serifa e a capacidade de ajustar o tamanho do texto e o espaçamento entre linhas podem melhorar significativamente a legibilidade. Adicionalmente, o uso de cores contrastantes e fundos neutros ajuda a evitar a fadiga visual.
+
+A implementação de funções de navegação simplificada, como menus claros e breadcrumbs (trilhas de navegação), facilita a orientação no site. Para usuários que podem se sentir perdidos facilmente, essas ferramentas proporcionam um caminho claro e lógico para encontrar informações e retornar a seções previamente visitadas.
+
+
 
 ## Análise
 
@@ -128,11 +163,7 @@ O site apresenta barreiras significativas para pessoas com deficiência física.
 
 ### Deficiência Auditiva
 
-O site não utiliza meios auditivos para realizar ações, garantindo que nenhum deficiente auditivo seja prejudicado ao utilizá-lo.
-
-### Deficiência de Fala
-
-O site não requer o uso da fala para nenhuma ação, garantindo que nenhum usuário com deficiência de fala seja prejudicado ao utilizá-lo.
+Os vídeos informativos do site pssuem legenda, sendo assim intependente do seu nível de deficiência auditiva você pode usar o site normalmente.
 
 ### Neurodivergentes
 
