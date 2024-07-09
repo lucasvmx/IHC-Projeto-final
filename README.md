@@ -1,3 +1,13 @@
+# Alunos
+
+- Maria Eduarda Vieira Monteiro - 221008356
+- Felipe de Oliveira Motta - 221031158
+- Julia Takaki Neves - 221029249
+- Lucas Vieira de Jesus - 211031136
+- Davi Gonçalves Akegawa Pierre  - 190105071
+- Wolfgang Friedrich Stein - 231032121
+
+
 # Guia de Acessibilidade Digital
 
 Este é um guia de acessibilidade digital desenvolvido no primeiro semestre de 2024 como parte de um trabalho da disciplina de IHC.
